@@ -8,12 +8,12 @@ La API permite realizar operaciones **CRUD** sobre vendedores y productos, así 
 
 # 📌 Características
 
-- API REST moderna
-- CRUD completo para **vendedores**
-- CRUD completo para **productos**
-- Consulta de productos por vendedor
-- Validación de datos con **Pydantic**
-- Documentación automática con Swagger
+- API REST moderna  
+- CRUD completo para **vendedores**  
+- CRUD completo para **productos**  
+- Consulta de productos por vendedor  
+- Validación de datos con **Pydantic**  
+- Documentación automática con Swagger  
 - Conexión a base de datos mediante **Supabase**
 
 ---
@@ -158,10 +158,23 @@ Ejemplo al consultar productos:
 
 ```json
 {
-  "id": 1,
-  "nombre": "Producto ejemplo",
-  "precio": 150,
-  "vendedor_id": 2
+  "vendedor_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "name": "string",
+  "price": 0,
+  "category_id": 0,
+  "quantity": 0,
+  "min_stock": 0
+}
+```
+```json
+{
+  "nombre": "stringst",
+  "nombre_local": "stringst",
+  "direccion": "string",
+  "telefono_1": "string",
+  "telefono_2": "string",
+  "email": "_JBM7_Due61LDhtEfxuJVTD2D67ULQ0s5EAUqEM%kbNrQGuDdPRlXz.Aq@GEALKixHHQ8jN3e3N7g8xL-KyWjKVdvymaE6.oAMYCrVecPEvFILpvTTKedUrvYuvwbSyaIJBfDzFJbKpeyXHEKyu",
+  "is_activated": true
 }
 ```
 
